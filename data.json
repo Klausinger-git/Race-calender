@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-03-20",
+    "event": "Sportscar Race 1",
+    "category": "SPORTS CAR",
+    "class": "C"
+  },
+  {
+    "date": "2026-03-22",
+    "event": "Sportscar Race 2",
+    "category": "SPORTS CAR",
+    "class": "B"
+  },
+  {
+    "date": "2026-03-25",
+    "event": "GT Race",
+    "category": "GT",
+    "class": "C"
+  }
+]
