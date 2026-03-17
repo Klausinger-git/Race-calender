@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Einfacher Kalender</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Rennkalender</h1>
+
+  <div class="filters">
+    <label for="categoryFilter">Kategorie:</label>
+    <select id="categoryFilter">
+      <option value="">Alle</option>
+      <option value="SPORTS CAR">SPORTS CAR</option>
+      <option value="GT">GT</option>
+    </select>
+
+    <label for="classFilter">Klasse:</label>
+    <select id="classFilter">
+      <option value="">Alle</option>
+      <option value="C">C</option>
+      <option value="B">B</option>
+    </select>
+  </div>
+
+  <table id="eventsTable">
+    <thead>
+      <tr>
+        <th>Datum</th>
+        <th>Event</th>
+        <th>Kategorie</th>
+        <th>Klasse</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Events werden hier eingefügt -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
